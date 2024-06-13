@@ -1,0 +1,206 @@
+%-------------------------
+% Resume in Latex
+% Author : Tushar Bhardwaj
+% Based off of: https://github.com/TuShArBhArDwA/Resume
+% License : MIT
+%------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Random Stuff %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[letterpaper,11pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-7pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{0pt}]
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Commands  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-3pt}}
+  }
+}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubheadingContinue}[2]{
+  \vspace{-3pt}
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+  \vspace{-3pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{4pt}}
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{0pt}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Heading  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+    \begin{center}
+        % NAME
+        {\Huge\scshape  TUSHAR BHARDWAJ} \\
+        \vspace{3pt}
+        \small
+        % EMAIL
+        \href{mailto:EMAIL}{\raisebox{-0.2\height}\faEnvelope\  \underline{tusharbhardwaj2617@gmail.com}} \:
+        % CONTACT
+        \href{tel:+919105761440}{\raisebox{-0.2\height}\Telefon\  \underline{+91-7009343545}} \\ 
+        \vspace{3pt}
+        % LINKEDIN
+        \href{https://www.linkedin.com/in/bhardwajtushar2004/}{\raisebox{-0.2\height}\ \underline{linkedin.com/in/bhardwajtushar2004/}} \:
+        % GITHUB
+        \href{https://github.com/TuShArBhArDwA}{\raisebox{-0.2\height}\ \underline{github.com/TuShArBhArDwA}} \:
+        % LEETCODE
+        \href{https://leetcode.com/u/TusharBhardwaj2004/} {\raisebox{-0.2\height}\ \underline{leetcode.com/u/TusharBhardwaj2004/}}
+        \end{center}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Summary  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+ 
+
+
+            {
+Motivated Computer Science undergraduate with a passion for problem-solving and a strong foundation in data structures and  algorithms. Proficient in programming languages including C++, Java and Python with a keen interest in full-stack development and software engineering roles. Actively participates in hackathons and competitive coding competitions on platforms such as Codeforces, Leetcode and CodeChef. Seeking opportunities to leverage academic excellence and practical skills to excel as a Software Development Engineer.
+
+
+            }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Education  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+  \resumeSubHeadingListStart
+  
+    % MAIN INFORMATION
+    \resumeSubheading
+    {Lovely Professional University}{Jalandhar, Punjab}
+    {B.Tech, Computer Science And Engineering, CGPA-8.84}{2022-2026}
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+  
+    % MAIN INFORMATION
+    \resumeSubheading
+    {KL Arya DAV Public School}{Hisar, Haryana}
+    {Class XII, CBSE Board, 85\%}{2021-2022}    
+  \resumeSubHeadingListEnd
+
+    \resumeSubHeadingListStart
+
+    
+    \resumeSubheading
+    {KL Arya DAV Public School}{Hisar, Haryana}
+    {Class X, CBSE Board, 89\%}{2019-2020}
+
+    \resumeSubHeadingListEnd
+    
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  PROJECTS  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Personal Projects} 
+    \resumeSubHeadingListStart
+
+        % Project 1
+        \resumeProjectHeading
+        {Loan Calculator Web Application -\href{https://github.com/TuShArBhArDwA/Loan-Calculator-Web-Application}{\raisebox{-0.2\height}\ \underline{Github}}}
+        % Date
+        {2024}
+        \vspace{-7pt}
+        \resumeItemListStart
+            \resumeItem{ Developed a web application for calculating loan payments with simple interest and displays the calculated results along with a graphical representation. }
+            
+            \resumeItem{ Empowers users with transparency into their loan
+repayments, fostering informed financial decision-making
+}
+            \resumeItem{ Skills Learnt: AngularJs, NodeJs
+}
+        \resumeItemListEnd
+        \vspace{7pt}
+        % Project 2
+        \resumeProjectHeading
+        {Online Voting System -\href{https://github.com/TuShArBhArDwA/eVoteX-Online-Voting-System}{\raisebox{-0.2\height}\ \underline{Github}}}
+        % Date
+        {2023}
+        \vspace{-7pt}
+        \resumeItemListStart
+            \resumeItem{ Developed a secure and user-friendly platform for conducting online voting and generates visually appealing output.} 
+            \resumeItem{ Incorporates encryption techniques to protect sensitive voter information and authenticate users preventing unauthorized access and tampering.}
+            \resumeItem{ Implemented security measures to ensure fair
+and secure voting process.}
+            \resumeItem{ Skills Learnt: Concept of DSA, C, Debugging and Testing
+}
+
+        \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Technical Skills  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Skills}
+
+    \vspace{-2pt}
+    \begin{itemize}
+    [leftmargin=0.15in, label={}]\small{\item{
+        % LANGUAGES
+        \textbf{Languages}{: C++ , Java , C , Python} \\
+        % TECHNOLOGIES
+        \textbf{Technologies/Frameworks}{: Javascript , NodeJs} \\
+        % OPERATING SYSTEM
+        \textbf{Operating Systems}{: Linux(Ubuntu), Windows} \\
+        % TOOLS
+        \textbf{Tools}{: Git , GitHub , VSCode , Figma} \\
+        
+        
+        }}
+    \end{itemize}
+ 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Achievements  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Achievements}
+    \resumeItemListStart
+        \resumeItem{ \textbf{Rank: 1382}, Solved over 560 Question | LeetCode }
+        \resumeItem{ \textbf{Div 4}, Streak over 430 days | CodeChef }
+        \resumeItem{ \textbf{Rank: 431} | GeekforGeeks }
+        \resumeItem{Participated in \textbf{HACKHAZARDS} organised by BPIT, Delhi}
+        \resumeItem{Participated in \textbf{COD-A-THON} organised by Coding Pirates}
+    \resumeItemListEnd
+\end{document}
