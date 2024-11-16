@@ -1,5 +1,6 @@
 # My Resume
-![myresume](https://github.com/user-attachments/assets/d276e6a9-d650-4433-b968-bc93db209c04)
+![image](https://github.com/user-attachments/assets/c2e71d47-aa35-4bdf-b655-f478132a8684)
+
 
 
 This repository contains my resume, which is created using LaTeX. It is structured to highlight my skills, experience, and projects. The resume is available in both LaTeX format (`resume.tex`) and as a compiled PDF.
