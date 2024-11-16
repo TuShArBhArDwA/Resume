@@ -19,7 +19,7 @@ docker run --rm -i -v "$PWD":/data latex pdflatex tushar_resume.tex
 
 ### Preview
 
-![image](https://github.com/user-attachments/assets/c2e71d47-aa35-4bdf-b655-f478132a8684)
+![Resume Screenshot](/resume_preview.jpg)
 
 ### License
 
