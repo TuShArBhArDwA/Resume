@@ -10,5 +10,6 @@ This repository contains my resume, which is created using LaTeX. It is structur
 3. The generated PDF will be available as `resume.pdf`.
 
 ## Links
-- [My LinkedIn](https://www.linkedin.com/in/myprofile)
-- [My GitHub](https://github.com/myprofile)
+- [My LinkedIn](https://www.linkedin.com/in/bhardwajtushar2004)
+- [My GitHub](https://github.com/TuShArBhArDwA)
+- [My PortFolio](https://tushar-bhardwaj.vercel.app)
