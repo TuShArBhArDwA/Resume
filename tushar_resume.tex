@@ -1,0 +1,302 @@
+%-------------------------
+% Resume in Latex
+% Author : Tushar Bhardwaj
+% Based off of: https://github.com/TuShArBhArDwA/MyResume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.6in}
+\addtolength{\textheight}{2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-12pt}\raggedright\Large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-7pt}}
+
+
+
+
+
+
+
+
+
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{enumitem}
+\usepackage{palatino}
+\usepackage{tabularx}
+\fontfamily{SansSerif}
+\selectfont
+
+\usepackage[T1]{fontenc}
+\usepackage
+%[ansinew]
+[utf8]
+{inputenc}
+
+\usepackage{color}
+\definecolor{mygrey}{gray}{0.82}
+\textheight=9.75in
+\raggedbottom
+
+\setlength{\tabcolsep}{0in}
+\newcommand{\isep}{-2 pt}
+\newcommand{\lsep}{-0.5cm}
+\newcommand{\psep}{-0.6cm}
+\renewcommand{\labelitemii}{$\circ$}
+
+\pagestyle{empty}
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2px}}
+\newcommand{\resheading}[1]{{\small \colorbox{mygrey} { \begin{minipage}{0.99\textwidth}\centering{\textbf{#1 \vphantom{p\^{E}}}}\end{minipage}}}}
+\newcommand{\ressubheading}[3]{
+\begin{tabular*}{6.62in}{l @{\extracolsep{\fill}} r}
+	\textsc{{\textbf{#1}}} & \rightline\textsc{\textit{[#2]}} \\
+\end{tabular*}\vspace{-8pt}}
+%-----------------------------------------------------------
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\usepackage{fontawesome5} % For icons
+\usepackage{graphicx}     % For including logo image
+ % For setting margins
+\usepackage{hyperref} % For hyperlinks
+
+\begin{document}
+
+\begin{tabular}{ p{0.55\textwidth} p{0.4\textwidth} }
+    % Left side - Logo, Name, and Address
+    \raisebox{-30pt}[-10pt][-10pt]{\includegraphics[height=2.5cm]{lpu-logo.png}} 
+    \begin{tabular}{l}
+        {\Huge \scshape Tushar Bhardwaj} \\ % Name
+        Hisar, Haryana (125001) % Address under name
+    \end{tabular}
+    &
+    % Right side - Contact Info
+    \hspace{1.75cm} % Adjust the spacing as needed
+    \begin{tabular}{r}
+        \small \faPhone\ +91 9034529223 \\[3pt] % Phone on a new line
+         \href{mailto:tusharbhardwaj2617@gmail.com}{\faEnvelope\ tusharbhardwaj2617@gmail.com} \\[3pt] % Email on a new line
+    \href{https://linkedin.com/in/bhardwajtushar2004}{\faLinkedin\ linkedin.com/in/bhardwajtushar2004} \\[3pt] % LinkedIn on a new line
+    \href{https://github.com/TuShArBhArDwA}{\faGithub\ github.com/TuShArBhArDwA} \\[3pt] % GitHub on a new line
+    \href{https://tushar-bhardwaj.vercel.app/}{\faGlobe\ tushar-bhardwaj.vercel.app} % Portfolio link on a new line
+
+    \end{tabular}
+\end{tabular}
+
+
+
+
+
+%-----------PROGRAMMING SKILLS-----------
+\vspace{1}
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C, C++, SQL, PHP, HTML, CSS, JavaScript, Java, Python, Typescript} \\
+     \textbf{Technologies}{: React.js, Express.js, Node.js, MongoDB, PostgreSQL, Next.js, Bootstrap} \\
+      \textbf{Coursework}{: Low-level Design(LLD), Algorithms Analysis, Operating System(OS), Data Structures, Networking, Database (DBMS), Software Engineering} \\
+    
+     \textbf{Miscellaneous}{: Linux, Shell (Bash/Zsh), Git} \\
+   
+    }}
+    
+ \end{itemize}
+ 
+
+%-----------EXPERIENCE-----------
+\section*{EXPERIENCE}
+\textbf{Content Problem Reviewer and Solution Author}, LeetCode \hfill Apr 2024 – Aug 2024\\[-0.8em] % Further adjusts spacing here
+\vspace{-1}
+\begin{itemize}\setlength{\itemsep}{0pt} % Sets item spacing to 0
+    \item Oversaw a quality control initiative for LeetCode problems, revising 120 problem statements and examples; improved user satisfaction ratings by 15\% through feedback channels.
+\end{itemize}
+
+
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Raj Fashion eCommerce Website} $|$ \emph{React, UI/UX Documentation, Frontend Development}}{}
+          \resumeItemListStart
+       \resumeItem{Documented the frontend behavior and user interaction flows for the Raj Fashion eCommerce website, providing detailed guidelines that streamlined development and improved feature consistency, leading to a 25\% reduction in debugging time and enabling the launch of key features 2 weeks ahead of schedule.}
+       \resumeItem{Enabled a seamless shopping experience with optimized load times (35\% faster) and intuitive navigation, ensuring accessibility and usability across 5+ devices.}
+       \resumeItem{Collaborated with developers to ensure timely feature implementation, improving development speed by 30\% and enhancing user engagement by 20\% post-launch.}
+     \resumeItemListEnd
+     \vspace{-15pt} % Reduce vertical space between projects
+
+      \resumeProjectHeading
+          {\textbf{Restaurant Application} $|$ \emph{Node.js, MongoDB, Mongoose, Web Server}}{}
+          \resumeItemListStart
+       \resumeItem{Documented the application behavior and user interaction flows for the restaurant app, providing clear guidelines that facilitated the successful launch of 5 new features ahead of schedule (by 3 weeks).}
+       \resumeItem{Created detailed reference documents for stakeholders, including users, administrators, and developers, improving communication efficiency by 40\% and ensuring seamless collaboration throughout the project.}
+       \resumeItem{Collaborated with three development teams to streamline the development process, improving application performance by 25\% and scalability by 15\% for high traffic.}
+     \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+     
+
+
+%
+
+
+
+
+
+\section{Achievements}
+\resumeSubHeadingListStart
+\resumeItemListStart
+
+
+
+\resumeItem{\textbf{Accomplished ratings of 1400+ on CodeChef} }
+
+
+
+\resumeItem{\textbf{Solved 1,200+ DSA problems} across platforms, maintaining a \textbf{370+ day streak on Leetcode. }(\textit{Consistency})}
+\resumeItem{ Technical head of a community of students interested in coding, \textbf{followed by 3,000+ students}. (\textit{\href{https://linkedin.com/company/apnacollegelpu}{\textbf{Link}}})}
+        \vspace*{1\multicolsep}
+\resumeSubHeadingListEnd
+
+
+
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+%-----------EXPERIENCE-----------
+\section{Profiles }
+        \vspace*{4\multicolsep}
+
+%---------------------------------------------------------
+\begin{table}[h]
+    \centering
+    \begin{tabular}{c@{\hspace{1cm}}c@{\hspace{1cm}}c@{\hspace{1cm}}c@{\hspace{1cm}}c}
+        \href{https://leetcode.com/7mm}{\underline{LeetCode}} &
+        \href{https://www.codechef.com/users/yashsiwach}{\underline{CodeChef}} &
+        \href{https://www.geeksforgeeks.org/user/yashsiwach}{\underline{ GeeksforGeeks}} 
+        &
+        \href{https://www.geeksforgeeks.org/user/yashsiwach}{\underline{Coding Ninjas}} 
+    \end{tabular}
+\end{table}
+     \vspace*{4\multicolsep}
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Lovely Professional University}{2022 -- 2026}
+      {Bachelor of Technology in Computer Science \& Engineering \textbf{(CGPA: 8.68 / 10)}}{Jalandhar, Punjab}
+       \resumeSubheading
+      {D.A.V Public School}{2020 - 2022}
+      {Higher secondary education  \textbf{(Percentage: 85, JEE Mains 88.3 Percentile)}}{Hisar, Haryana}
+              \vspace*{0\multicolsep}
+  \resumeSubHeadingListEnd
+
+\end{document}
